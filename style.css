@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Rubik Wet Paint", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+background-image: radial-gradient( rgb(7, 2, 45),20%,rgb(26, 3, 80));
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+h1{
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 600px;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    animation-name: logo;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+h3{
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    font: weight 600px;;
+    color: rgb(255, 255, 255);
+    animation-name: logo;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes logo {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.fade-out{
+    opacity: 0;
+}
+p{
+    color: aliceblue;
+    margin-top: 5rem;
+    animation-name: logo;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@media only screen and (max-width:500px){
+    body{
+        transform: rotate(90deg);
+        width:100%;
+      }
+      p{
+        width: 150%;
+        text-align: center;
+        justify-content: center;
+      }
+      h3{
+        width: 110%;
+        font-size: 17px;
+        text-align: center;
+        justify-content: center;
+      }
+
+}
