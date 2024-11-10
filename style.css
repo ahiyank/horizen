@@ -56,3 +56,21 @@ p{
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
 }
+@media only screen and (max-width:500px){
+    body{
+        transform: rotate(90deg);
+        width:100%;
+      }
+      p{
+        width: 150%;
+        text-align: center;
+        justify-content: center;
+      }
+      h3{
+        width: 110%;
+        font-size: 17px;
+        text-align: center;
+        justify-content: center;
+      }
+
+}
