@@ -168,6 +168,9 @@ body::-webkit-scrollbar {
       height: 80%;
 
     }
+  .main{
+    width:100%;
+  }
 
 }
 
