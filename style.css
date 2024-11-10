@@ -4,7 +4,8 @@
 }
 
 body{
-background-image: radial-gradient( rgb(255, 94, 60),20%,rgb(255, 170, 0));
+background-image: radial-gradient( rgb(7, 2, 45),20%,rgb(26, 3, 80));
+
 background-size: 100% 100%;
 background-repeat: no-repeat;
 background-attachment: fixed;
