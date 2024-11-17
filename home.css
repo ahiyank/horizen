@@ -147,12 +147,15 @@ body::-webkit-scrollbar {
   width: 70%;
   margin-left: 34%;
 }
-
-@media only screen  and (max-width:500px){
+@media only screen  and (max-width:628px){
 
     body{
       transform: rotate(90deg);
-      width:100%;
+
+    }
+    .main{
+      width: 100vh;
+      height: 100vw;
     }
 
     .content .main-text h1{
@@ -168,11 +171,12 @@ body::-webkit-scrollbar {
       height: 80%;
 
     }
-  .main{
-    width:100%;
-  }
+    .hero{
+      width: 100vh;
+      height: 100vw;
+    
+    }
 
 }
-
 
 
