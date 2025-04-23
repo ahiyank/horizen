@@ -149,12 +149,12 @@ footer{
  animation-duration: 3s;
  animation-delay: 0.5s;
  overflow: hidden;
- width: 0px;
+
 
 }
 
 @keyframes fade-in{
- 
+ 0%{width: 0;}
   100%{width: 100%;}
 }
 
